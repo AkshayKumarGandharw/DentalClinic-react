@@ -30,55 +30,7 @@ import AppointmentForm from '../../../PartsComp/AppointmentForm';
                 <div className="col-lg-6">
                     <div className="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 className="text-white mb-4">Make Appointment</h1>
-                        {/* <form ref={form} onSubmit={sendEmail}>
-                            <div className="row g-3">
-                                <div className="col-12 col-sm-6">
-                                    <select name="selected_service" className="form-select bg-light border-0" style={{height: "55px"}}>
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div className="col-12 col-sm-6">
-                                    <select name="selected_doctor" className="form-select bg-light border-0" style={{height: "55px"}}>
-                                        <option selected>Select Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div className="col-12 col-sm-6">
-                                    <input  name="title" type="text" className="form-control bg-light border-0" placeholder="Your Name" style={{height: "55px"}} />
-                                </div>
-                                <div className="col-12 col-sm-6">
-                                    <input name= "from_email" type="email" className="form-control bg-light border-0" placeholder="Your Email" style={{height: "55px"}} />
-                                </div>
-                                <div className="col-12 col-sm-6">
-                                    <div className="date" id="date1" data-target-input="nearest">
-                                     <input type="text"
-                                            className="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style={{height: "55px"}} /> 
-
-                                            <input type="time" placeholder="Appointment Time" value={time} onChange={()=>{handleChange}/>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-6">
-                                    <div className="time" id="time1" data-target-input="nearest">
-                                         <input type="text"
-                                            className="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style={{height: "55px"}} /> 
-
-                                            <input type="date" placeholder="Appointment Date" value={date} onChange={()=>{handleChange}/>
-
-                                    </div>
-                                </div> 
-                                
-                                <div className="col-12">
-                                    <button className="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
-                                </div>
-                            </div>
-                        </form> */}
+                        
                         <AppointmentForm/>
                     </div>
                 </div>

@@ -1,6 +1,10 @@
      import React from 'react'
+     import $ from 'jquery';
+   import '../../App.css';
+
      
      function Testimonial() {
+  
        return (
           <div className="container-fluid bg-primary bg-testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">

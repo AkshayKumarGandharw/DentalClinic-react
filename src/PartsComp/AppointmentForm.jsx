@@ -105,7 +105,7 @@ function AppointmentForm() {
                      type="text" 
                      className="form-control bg-light border-0" 
                      placeholder="Your subject"
-                     onChange={(event)=>setName(event.target.value)}
+                     onChange={(event)=>setSubject(event.target.value)}
                     required style={{ height: "55px" }} />
                     <p style={{color:"red",textAlign:"Left"}}>{subject? " ": "subject is required"}</p>
                 </div>
