@@ -26,14 +26,14 @@
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-                <a  href='/' className="nav-item nav-link active">Home</a>
-                <a href='/aboutus'  className="nav-item nav-link">About Us </a>
-                <a href='/services'  className="nav-item nav-link">Services</a> 
-                 <a href='/contact'  className="nav-item nav-link">Contact</a>
+                <Link  to='/' className="nav-item nav-link active">Home</Link>
+                <Link to='/aboutus'  className="nav-item nav-link">About Us </Link>
+                <Link to='/services'  className="nav-item nav-link">Services</Link> 
+                 <Link to='/contact'  className="nav-item nav-link">Contact</Link>
                 
             </div>
             <button type="button" className="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-            <a  href='/appointment' className="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <Link  to='/appointment' className="btn btn-primary py-2 px-4 ms-3">Appointment</Link>
         </div>
     </nav>
    )
