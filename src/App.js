@@ -1,7 +1,7 @@
 
 import './App.css';
 import $ from 'jquery';
-import Navbar from './Comman/NAVIGATION/Navbar';
+
 import Topbar from './Comman/TOPBAR/Topbar';
 
 
@@ -16,6 +16,8 @@ import Contact from './Comman/NAVIGATION/ContactPage/Contact';
 import Appointment from './Comman/NAVIGATION/AppointmentBtn/Appointment';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Home from './Comman/NAVIGATION/Home/Home';
+import HeaderNavbar from './Comman/NAVIGATION/HeaderNavbar';
+
 
 
 
@@ -76,7 +78,7 @@ function App() {
     <>
     <Router>
     <Topbar/>
-    <Navbar/>
+   <HeaderNavbar/>
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/aboutus' element={<AboutUs/>}/>
